@@ -1,0 +1,2 @@
+ gcc client.c ../common/common.c ../common/client_recv.c ../common/setscreen.c -I ../common -o client -lpthread  -lncurses -D _D
+./client -h 39.97.179.166 -p 8888 -n aii

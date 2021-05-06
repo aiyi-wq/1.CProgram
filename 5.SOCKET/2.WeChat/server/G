@@ -1,0 +1,2 @@
+ gcc server.c ../common/common.c ../common/thread_pool.c ../common/chat.c -I ../common -o server -lpthread -D _D
+./server -p 8888

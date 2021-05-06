@@ -1,0 +1,1 @@
+gcc -I ../../common/ 1.Health1.c -lpthread -D _D
